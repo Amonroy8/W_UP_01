@@ -60,9 +60,8 @@ The skilled players are doing more pushups than the line players. The way I can 
 ```{r}
 favstats(pushups~position,data=mydata)
 ``` 
-
 ```
-The skills players, on average are doing three times more pushups than the line players.
+The skills players, on average are doing three times more pushups than the line players. The first squadrant of the skill players was 31.25. The third squadrant of the line players was 24.25. If I compare it with the first squadrant of the skill players, it is smaller.
 ```
 
 ## Inferential Results
