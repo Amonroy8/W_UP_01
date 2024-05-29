@@ -40,8 +40,8 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ### Graphical Descriptive Results
 
 ```{r} 
-boxplot(pushups~position,data-mydata)
-
+boxplot(pushups~position,data=mydata)
+```
 
   
 The skilled players are doing more pushups than the line players. The way I can it is in the median, the line players average about 15 pushups whereas the skilled players average about 50.
@@ -53,6 +53,17 @@ The skilled players are doing more pushups than the line players. The way I can 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+  
+  
+  
+```{r}
+favstats(pushups~position,data=mydata)
+``` 
+
+```
+The skills players, on average are doing three times more pushups than the line players.
+```
 
 ## Inferential Results
 
