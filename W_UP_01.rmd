@@ -71,7 +71,12 @@ The skills players, on average are doing three times more pushups than the line 
 ```{r}
 t.test(pushups~position,data=mydata)
 ``` 
+```
+The probability of you getting this result is if you get .000009421. We reject the null hypothesis, there isnt any difference between the pushups from the line and the skill players.
+```
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-
+```
+First we have to figure out what kind of data we are looking at. The first problem was determined to be a numerical/categorical data. we input the code to get the box plot. We then looked at the second set of data amd decided it was numerical data. We input the code and realized that one-third of the line players did less pushups than the skill players. lastly, we ran the data for the t test and decided that the line players and skill players probability was far less in being any different.
+```
